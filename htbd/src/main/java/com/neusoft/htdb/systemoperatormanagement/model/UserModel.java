@@ -1,9 +1,12 @@
-package com.neusoft.htbd.systemoperatormanagement.model;
+package com.neusoft.htdb.systemoperatormanagement.model;
 
 import java.util.List;
 
-import com.neusoft.htbd.systemconfiguration.model.UserInfoModel;
+import com.neusoft.htdb.systemconfiguration.model.UserInfoModel;
 
+import lombok.Data;
+
+@Data
 public class UserModel {
 
 	private String uUserID;

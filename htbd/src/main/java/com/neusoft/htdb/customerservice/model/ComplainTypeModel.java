@@ -1,13 +1,14 @@
-package com.neusoft.htbd.customerservice.model;
+package com.neusoft.htdb.customerservice.model;
 
 import java.util.List;
 
+import org.apache.ibatis.type.Alias;
+
 import lombok.Data;
-/*
- * 万俊星
- */
+
+@Alias("ComplainType")
 @Data
-public class ComplianTypeModel {
+public class ComplainTypeModel {
     private Long typeNo;
 	private String typeName;
 	private List<HomeComplainModel> homeComplains;

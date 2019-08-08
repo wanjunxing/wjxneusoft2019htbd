@@ -1,33 +1,31 @@
-package com.neusoft.htbd.customerservice.model;
+package com.neusoft.htdb.customerservice.model;
 
 import java.math.BigDecimal;
 import java.util.Date;
 
-import lombok.Data;
-
-@Data
-public class HomeComplainModel {
+public class HouseComplainModel {
 
 	private Long complainNo;
-	private Home homes;
-	private ComplianTypeModel complianTypes;
-	private String complainTitle; 
+	private House houses;
+	private ComplainTypeModel complianTypes;
+	private String complainTitle;
 	private String complainContent;
 	private String requestContent;
 	private Date complainDate;
-	private String contactPerson; 
+	private String contactPerson;
 	private String tel;
 	private String mobile;
-	private String mail; 
+	private String mail;
 	private String qq;
 	private Date serviceStartDate;
 	private Date serviceEndDate;
 	private String serviceContext;
 	private String servicePerson;
 	private Date feedBackDate;
-	private String homeComment;
+	private String houseComment;
 	private Date assuranceDate;
 	private BigDecimal assuranceFee;
 	private Date assurancePayDate;
 	private String complainStatus;
+
 }
