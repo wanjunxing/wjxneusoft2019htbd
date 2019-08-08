@@ -3,7 +3,9 @@ package com.neusoft.htbd.customerservice.model;
 import java.util.List;
 
 import lombok.Data;
-
+/*
+ * 万俊星
+ */
 @Data
 public class ComplianTypeModel {
     private Long typeNo;
