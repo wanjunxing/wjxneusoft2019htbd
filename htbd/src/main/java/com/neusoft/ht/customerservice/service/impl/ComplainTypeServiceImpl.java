@@ -1,13 +1,13 @@
-package com.neusoft.htdb.customerservice.service.impl;
+package com.neusoft.ht.customerservice.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.neusoft.htdb.customerservice.mapper.IComplainTypeMapper;
-import com.neusoft.htdb.customerservice.model.ComplainTypeModel;
-import com.neusoft.htdb.customerservice.service.IComplainTypeService;
+import com.neusoft.ht.customerservice.mapper.IComplainTypeMapper;
+import com.neusoft.ht.customerservice.model.ComplainTypeModel;
+import com.neusoft.ht.customerservice.service.IComplainTypeService;
 
 @Service("ComplainTypeService")
 public class ComplainTypeServiceImpl implements IComplainTypeService {

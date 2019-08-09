@@ -1,8 +1,8 @@
-package com.neusoft.htdb.systemconfiguration.model;
+package com.neusoft.ht.systemconfiguration.model;
 
 import java.util.List;
 
-import com.neusoft.htdb.systemoperatormanagement.model.UserModel;
+import com.neusoft.ht.systemoperatormanagement.model.UserModel;
 
 import lombok.Data;
 

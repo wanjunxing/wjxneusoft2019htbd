@@ -1,4 +1,4 @@
-package com.neusoft.htdb.systemconfiguration.model;
+package com.neusoft.ht.systemconfiguration.model;
 
 import java.util.List;
 

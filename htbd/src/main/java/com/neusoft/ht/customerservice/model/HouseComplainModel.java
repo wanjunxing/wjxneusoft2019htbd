@@ -1,4 +1,4 @@
-package com.neusoft.htdb.customerservice.model;
+package com.neusoft.ht.customerservice.model;
 
 import java.math.BigDecimal;
 import java.util.Date;

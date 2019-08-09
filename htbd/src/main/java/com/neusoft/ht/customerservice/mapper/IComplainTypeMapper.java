@@ -1,10 +1,10 @@
-package com.neusoft.htdb.customerservice.mapper;
+package com.neusoft.ht.customerservice.mapper;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.neusoft.htdb.customerservice.model.ComplainTypeModel;
+import com.neusoft.ht.customerservice.model.ComplainTypeModel;
 
 @Mapper
 public interface IComplainTypeMapper {

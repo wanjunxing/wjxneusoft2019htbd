@@ -1,8 +1,8 @@
-package com.neusoft.htdb.customerservice.service;
+package com.neusoft.ht.customerservice.service;
 
 import java.util.List;
 
-import com.neusoft.htdb.customerservice.model.ComplainTypeModel;
+import com.neusoft.ht.customerservice.model.ComplainTypeModel;
 
 
 public interface IComplainTypeService {
